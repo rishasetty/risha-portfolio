@@ -3,33 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risha Setty's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Risha Setty | Portfolio</title>
+    <meta name="description" content="Portfolio of Risha Setty - Student Researcher & Developer">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Risha Setty's Portfolio</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hello! I am Risha Setty, a passionate web developer.</p>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Project 1: </strong> A web application that does XYZ.</li>
-                <li><strong>Project 2: </strong> An e-commerce site for ABC.</li>
-                <li><strong>Project 3: </strong> A mobile app for DEF.</li>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="grain-overlay"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">RS.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section-padding">
+            <div class="container hero-content fade-in-up">
+                <div class="badge">Class of 2027</div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-gradient">Risha Setty</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Student Researcher &bull; Developer &bull; Innovator
+                </p>
+                <p class="hero-description">
+                    Exploring the intersection of hydroponics, machine learning, and computer science to build sustainable and adaptive solutions for the future.
+                </p>
+                <div class="hero-actions">
+                    <a href="#research" class="btn btn-primary">
+                        View Research <i data-lucide="arrow-right"></i>
+                    </a>
+                    <a href="#experience" class="btn btn-secondary">
+                        View Experience
+                    </a>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Email: risha.setty@example.com</p>
+
+        <section id="about" class="about section-padding align-center">
+            <div class="container fade-in-up">
+                <div class="section-header">
+                    <h2 class="section-title">Education & Background</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="glass-card education-card">
+                    <div class="card-header">
+                        <i data-lucide="graduation-cap" class="header-icon"></i>
+                        <h3>Newark Charter Sr. High School</h3>
+                    </div>
+                    <p class="highlight-text">Junior &bull; Cumulative Weighted GPA: 4.6</p>
+                    
+                    <div class="coursework-grid">
+                        <div class="course-group">
+                            <h4>Relevant Coursework</h4>
+                            <div class="tags">
+                                <span>AP Calculus AB & BC</span>
+                                <span>AP Computer Science A & Principles</span>
+                                <span>AP Precalculus</span>
+                                <span>AP Language & Composition</span>
+                                <span>AP Seminar</span>
+                                <span>AP Research</span>
+                                <span>AP Physics C</span>
+                            </div>
+                        </div>
+                        <div class="course-group">
+                            <h4>Upcoming Coursework</h4>
+                            <div class="tags">
+                                <span>AP Micro/Macroeconomics</span>
+                                <span>AP Statistics</span>
+                                <span>Multivariable Calculus</span>
+                                <span>AP Environmental Science</span>
+                                <span>AP Cybersecurity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience section-padding">
+            <div class="container fade-in-up">
+                <div class="section-header">
+                    <h2 class="section-title">Experience & Leadership</h2>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="experience-grid">
+                    <div class="exp-column">
+                        <h3 class="col-title"><i data-lucide="flask-conical"></i> Research & Science</h3>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="glass-card exp-card">
+                                <h4>AP Research Project - Hydroponics & ML</h4>
+                                <span class="date">2025 - 2026</span>
+                                <ul>
+                                    <li>Designed hydroponic experiments integrated with machine learning models to predict plant growth outcomes.</li>
+                                    <li>Conducted iterative experiments, statistical analyses, and literature review to refine predictions.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="glass-card exp-card">
+                                <h4>University of Delaware - Hydroponics Research</h4>
+                                <span class="date">Summer 2025</span>
+                                <ul>
+                                    <li>Investigated water-efficient hydroponic growing systems and analyzed crop yield data.</li>
+                                    <li>Collaborated with postdoctoral researchers on experimental design and data collection.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="exp-column">
+                        <h3 class="col-title"><i data-lucide="users"></i> Leadership & STEM</h3>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="glass-card exp-card">
+                                <h4>Founder - Peer Mentoring Club</h4>
+                                <span class="date">2025 - Present</span>
+                                <p>Created a mentoring program for incoming freshmen. Coordinated pairings and training sessions.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="glass-card exp-card">
+                                <h4>Student Council Exec. VP</h4>
+                                <span class="date">2026 - 2027</span>
+                                <p>Progressed through roles: Treasurer ('23-'24), VP ('24-'25), Secretary ('25-'26), Exec VP ('26-'27).</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="glass-card exp-card">
+                                <h4>STEM Honors</h4>
+                                <span class="date">Multiple Years</span>
+                                <ul>
+                                    <li>NCWIT Aspirations in Computing - Affiliate Winner ('25, '26)</li>
+                                    <li>Girls Who Code SIP Program ('24)</li>
+                                    <li>BPA National Qualifier (UX Design) ('26)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section-padding align-center">
+            <div class="container fade-in-up">
+                <div class="section-header">
+                    <h2 class="section-title">Design Projects</h2>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="glass-card project-card">
+                        <i data-lucide="layout-template" class="project-icon"></i>
+                        <h3>NECS Promotional Landing Page</h3>
+                        <p>A professional promotional website designed and developed for the Business Professionals of America (BPA) User Experience competition.</p>
+                        <a href="https://necs.shriyanyamali.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                            Visit Site <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="glass-card project-card">
+                        <i data-lucide="smartphone" class="project-icon"></i>
+                        <h3>NECS Mobile App Prototype</h3>
+                        <p>An interactive mobile application prototype designed alongside the promotional campaign, emphasizing intuitive mobile UX and interface design.</p>
+                        <a href="https://necsmobile.shriyanyamali.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                            View Prototype <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="research-showcase section-padding">
+            <div class="container fade-in-up">
+                <div class="section-header">
+                    <h2 class="section-title">Research Deep-Dive</h2>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="research-container glass-card">
+                    <div class="research-content">
+                        <h3>Hydroponics & Machine Learning: Predictive Modeling</h3>
+                        <p class="summary-text">
+                            An investigation into replacing traditional fixed-threshold hydroponic monitoring with predictive Machine Learning models driven purely by simple water-quality sensors (pH, EC, TDS).
+                        </p>
+                        
+                        <div class="research-grid">
+                            <div class="r-section">
+                                <i data-lucide="target" class="r-icon"></i>
+                                <h4>The Gap</h4>
+                                <p>Fixed-threshold systems maintain environments in stable ranges (e.g. pH 5.5-6.5) but assume all plants act the same. While AIoT exists, it relies on costly image/heavy sensor networks.</p>
+                            </div>
+                            <div class="r-section">
+                                <i data-lucide="cpu" class="r-icon"></i>
+                                <h4>The Method</h4>
+                                <p>Tested Random Forest and Gradient Boosting algorithms on limited pH, EC, and TDS data collected twice weekly regarding lettuce plant growth.</p>
+                            </div>
+                            <div class="r-section">
+                                <i data-lucide="bar-chart-2" class="r-icon"></i>
+                                <h4>The Results</h4>
+                                <p>ML models significantly outperformed fixed-threshold systems (Gradient Boosting MAE of 5.31 cm vs 8.92 cm). Proves low-cost sensor data is viable for smart-agriculture.</p>
+                            </div>
+                        </div>
+
+                        <div class="paper-action">
+                            <a href="#" class="btn btn-outline" onclick="alert('Full paper reading view coming soon!')">
+                                <i data-lucide="file-text"></i> Read Full Paper Extracts
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="research-visual">
+                        <div class="image-wrapper">
+                            <img src="research_chart.png" alt="Hydroponic Data Chart" class="research-image" onerror="this.src='https://images.unsplash.com/photo-1582215888806-38cb469c4f92?auto=format&fit=crop&q=80&w=800'">
+                            <div class="image-caption">Figure 3 Proxy: ML predictions vs. actual lettuce heights</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-padding align-center">
+            <div class="container fade-in-up">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="contact-card glass-card">
+                    <p>Interested in collaborating on research, or discussing tech and innovation? Let's connect.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:rishsett27@ncs.charter.k12.de.us" class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <span>rishsett27@ncs.charter.k12.de.us</span>
+                        </a>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <span>(302) 363-9560</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2026 Risha Setty. All rights reserved.</p>
+        <div class="container footer-content">
+            <p>&copy; 2026 Risha Setty. Designed and Built for Excellence.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
